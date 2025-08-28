@@ -11,7 +11,7 @@ using namespace std;
 int main() {
     char letra;
 
-    cout << "Ingrese un caracter: ";
+    cout << "Ingrese una letra: ";
     cin >> letra;
 
     //VOCALES
@@ -21,10 +21,9 @@ int main() {
         case 'i': case 'I':
         case 'o': case 'O':
         case 'u': case 'U':
-            cout << "Es una vocal." << endl;
+            cout << "Es una vocal" << endl;
             break;
-
-        //CONSONANTES
+    //CONSONANTES
         case 'b': case 'B': case 'c': case 'C': case 'd': case 'D':
         case 'f': case 'F': case 'g': case 'G': case 'h': case 'H':
         case 'j': case 'J': case 'k': case 'K': case 'l': case 'L':
@@ -32,13 +31,12 @@ int main() {
         case 'q': case 'Q': case 'r': case 'R': case 's': case 'S':
         case 't': case 'T': case 'v': case 'V': case 'w': case 'W':
         case 'x': case 'X': case 'y': case 'Y': case 'z': case 'Z':
-            cout << "Es una consonante." << endl;
+            cout << "Es una consonante" << endl;
             break;
-
+    //NINGUNO DE LOS ANTERIORES
         default:
-            cout << "Es un carácter especial." << endl;
+            cout << "Es un caracter especial" << endl;
     }
 
-    return 0;
-}
+    return 0; }
 

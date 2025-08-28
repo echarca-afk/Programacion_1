@@ -10,7 +10,7 @@ using namespace std;
 
 int main() {
     int numero;
-    cout << "Ingrese un número entre 1 y 5: ";
+    cout << "Ingrese un numero: ";
     cin >> numero;
 //INICIALIZACION DE LA SUMA 
     int suma = 0; 
