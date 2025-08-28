@@ -10,7 +10,7 @@ using namespace std;
 
 int main() {
     int numero;
-    cout << "Ingrese un nmero entre 1 y 5: "; //INGRESO DEL NUMERO
+    cout << "Ingrese un numero entre 1 y 5: "; //INGRESO DEL NUMERO
     cin >> numero;
 
     while (numero < 1 || numero > 5) {

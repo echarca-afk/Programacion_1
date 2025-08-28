@@ -10,16 +10,18 @@ using namespace std;
 
 int main() {
     int numero;
-    int invertido;
+    int numero_invertido= 0;
+    int digito;
     cout << "Ingrese un numero entero: ";
     cin >> numero;
 
 
     while (numero > 0) {
-        invertido = numero % 10; 
-        numero = numero / 10;
+        digito = numero % 10; //OBTENCION DEL ULTIMO DIGITO
+        numero = numero / 10; //ELIMINANDO EL ULTIMO DIGITO
+        numero_invertido = numero_invertido*10+digito; //GENERARCION DEL NUMERO INVERTIDO
     }
-    cout << "Numero invertido es " << invertido ;
+    cout << "Numero invertido es " << numero_invertido ;
     cout << endl;
     return 0;
 }

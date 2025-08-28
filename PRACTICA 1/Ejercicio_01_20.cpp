@@ -12,10 +12,10 @@ int main() {
     int numero_entero;
     cout << "Ingrese un numero: ";
     cin >> numero_entero;
-    int contador_digitos = 0;
+    int contador_digitos = 0; //CONTADOR CON VALOR INICIAL DE 0
     while (numero_entero >0)
     {
-        numero_entero = numero_entero/10;
+        numero_entero = numero_entero/10; //ELIMINANDO EL ULTIMO DIGITO DEL NUMERO
         contador_digitos++;
     }
     cout << "El numero tiene " << contador_digitos << endl;

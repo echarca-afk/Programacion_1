@@ -10,8 +10,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hola, soy estudiante de programacion."<< endl;
-    cout << "Emiliano Charca Canaviri."<< endl;
-    cout << "Ingenieria Mecatronica."<< endl;
+   //IMPRESION DE MENSAJES
+    cout << "Hola, soy estudiante de programacion."<< endl; 
+    cout << "Emiliano Charca Canaviri."<< endl; //NOMBRE COMPLETO
+    cout << "Ingenieria Mecatronica."<< endl; //CARRERA QUE ESTOY ESTUDIANDO
     return 0;
 }

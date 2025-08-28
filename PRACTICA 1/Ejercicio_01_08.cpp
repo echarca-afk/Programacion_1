@@ -12,10 +12,10 @@ int main() {
     int numero_entero;
     cout << "Ingrese un numero entero: ";
     cin >> numero_entero;
-
-    if (numero_entero%2 == 0)
+//VERIFICACION DE NUMERO PAR O IMPAR
+    if (numero_entero%2 == 0) 
     {
-        cout <<"El numero entero ingresado es par";
+        cout <<"El numero entero ingresado es par"; 
     }
     else
     {

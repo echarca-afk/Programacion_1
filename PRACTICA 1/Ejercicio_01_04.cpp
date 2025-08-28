@@ -12,12 +12,13 @@ using namespace std;
 
 int main()
 {
+    //RADIO DE LA ESFERA
     float radio;
     cout << " Ingrese el radio de la esfera: ";
     cin >> radio;
 
+    //CALCULO DEL VOLUMEN DE LA ESFERA
     float volumen_de_la_esfera = 4/3*PI*(radio*radio*radio);
-    
     cout << " El Volumen de la esfera es ";
     cout << volumen_de_la_esfera << " unidades cubicas" ;
 

@@ -14,19 +14,16 @@ int main()
     //VALORES INICIALES2
     int valor1 = 0;
     int valor2 = 0;
-
     cout << valor1 << endl;
     cout << valor2 << endl;
-
+    //VALORES A DESIGNAR
     cout << " Ingrese el valor 1: ";
     cin >> valor1;
     cout << " Ingrese el valor 2: ";
     cin >> valor2;
 
-    //VALORES A DESIGNAR
     cout << valor1 << endl;
     cout << valor2 << endl;
-
 
     return 0;
 }

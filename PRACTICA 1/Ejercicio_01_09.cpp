@@ -10,17 +10,17 @@ using namespace std;
 
 int main() {
     int edad;
-
+    //INGRESO DE LA EDAD DE EL USUARIO
     cout << "Ingrese su edad: ";
     cin >> edad;
 
     if (edad <= 12)
     {
-        cout << "Eres Ninio o kid";
+        cout << "Eres Ninio o kid"; //NIÑO
     }
     else if (edad <= 18)
     {
-        cout << "Eres Adolescente";
+        cout << "Eres Adolescente"; 
     }
     else if (edad > 18 && edad < 60)
     {
