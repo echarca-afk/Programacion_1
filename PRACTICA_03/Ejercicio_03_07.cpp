@@ -1,7 +1,7 @@
 // Materia: Programación I, Paralelo 4 
 // Autor: Emiliano Charca Canaviri 
 // Fecha creación: 11/09/2025 
-// Número de ejercicio: 1 
+// Número de ejercicio: 7 
 
 #include <iostream>
 #include <cstdlib>
