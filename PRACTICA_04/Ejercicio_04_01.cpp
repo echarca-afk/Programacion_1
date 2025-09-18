@@ -6,13 +6,8 @@
 #include <iostream>
 using namespace std;
 
-// Función que intercambia los valores de dos variables enteras
-void IntercambiarValores(int &primerValor, int &segundoValor) {
-    int valorTemporal = primerValor; //Referenciamos el valor original de primerValor
-    primerValor = segundoValor;      // Asignamos el valor de segundoValor a primerValor
-    segundoValor = valorTemporal;    // Asignamos el valor guardado a segundoValor
-    }
-    int main() {
+void IntercambiarValores(int &primerValor, int &segundoValor);
+int main() {
     int numeroUno, numeroDos;
 
     cout << "Ingrese el primer numero: ";
@@ -33,3 +28,9 @@ void IntercambiarValores(int &primerValor, int &segundoValor) {
 
     return 0;
 }
+// Función que intercambia los valores de dos variables enteras
+void IntercambiarValores(int &primerValor, int &segundoValor) {
+    int valorTemporal = primerValor; //Referenciamos el valor original de primerValor
+    primerValor = segundoValor;      // Asignamos el valor de segundoValor a primerValor
+    segundoValor = valorTemporal;    // Asignamos el valor guardado a segundoValor
+    }
