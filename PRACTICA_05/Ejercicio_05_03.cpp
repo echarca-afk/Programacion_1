@@ -1,8 +1,10 @@
 // Materia: Programación I, Paralelo 4
-// Autor: Univ. Emiliano Charca Canaviri
+// Autor: Charca Canaviri Emiliano
+// Carnet: 13740843
+// Carrera del estudiante: Ingeniería Mecatrónica
 // Fecha creación: 30/09/2025
 // Número de ejercicio: 3
-// Problema planteado: 
+
 #include <iostream>
 #include <vector>
 #include <math.h>

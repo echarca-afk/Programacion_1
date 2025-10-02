@@ -2,7 +2,7 @@
 // Autor: Charca Canaviri Emiliano
 // Carnet: 13740843
 // Carrera del estudiante: Ingeniería Mecatrónica
-// Fecha creación: 01/10/2025
+// Fecha creación: 30/09/2025
 // Número de ejercicio: 1
 #include <iostream>
 #include <cstdlib>
