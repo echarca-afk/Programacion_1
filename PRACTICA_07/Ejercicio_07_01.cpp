@@ -1,7 +1,7 @@
 // Materia: Programación I, Paralelo 4
 // Autor: Univ. Emiliano Charca Canaviri
 // Carnet: 13740843
-// Carrera del estudiante: Ingeniería de Sistemas
+// Carrera del estudiante: Ingeniería Mecatrónico
 // Fecha creación: 15/10/2025
 // Número de ejercicio: 1
 
