@@ -14,13 +14,11 @@ int euclides (int x, int y) {
         return euclides(y, x % y);
     }
 }
-
 void cambiar(int &x, int &y){
     y = y + x;
     x = y - x;
     y = y - x;
 }
-
 int main()
 {
     int x, y;
